@@ -1,0 +1,6 @@
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    DocumentRoot /var/www/html/owncloud
+    ErrorLog ${APACHE_LOG_DIR}/owncloud-error.log
+    CustomLog ${APACHE_LOG_DIR}/owncloud-access.log combined
+</VirtualHost>
